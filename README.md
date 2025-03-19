@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# my-portfolio
+=======
+>>>>>>> 19ff880 (Initial commit)
 <div align="center">
 	<h1> My Portfolio </h1>
 </div>
@@ -54,3 +60,7 @@ npm run build
 ## Credits ✍
 
 Implementation by [@Pappyjay23](https://github.com/Pappyjay23)
+<<<<<<< HEAD
+=======
+>>>>>>> e1828e3 (My-Portfolio)
+>>>>>>> 19ff880 (Initial commit)
