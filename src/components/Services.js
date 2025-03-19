@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Services.css";
-import { IoColorWandOutline } from "react-icons/io5";
-import { BiCodeAlt } from "react-icons/bi";
+import { CgWebsite } from "react-icons/cg";
+import { FaMobileAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Services = () => {
@@ -31,7 +31,7 @@ const Services = () => {
             initial={{ opacity: 0 }}
           >
             <div className="services-card">
-              <BiCodeAlt className="services-icon" />
+              <FaMobileAlt className="services-icon" />
               <p className="services-title">App Development</p>
               <p className="services-desc">
                 I use various app technologies to develop attractive,creative,
@@ -39,7 +39,7 @@ const Services = () => {
               </p>
             </div>
             <div className="services-card">
-              <IoColorWandOutline className="services-icon" />
+              <CgWebsite className="services-icon" />
               <p className="services-title">Web Development</p>
               <p className="services-desc">
                 I work with certain design tools to create high-fidelity designs

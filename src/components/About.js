@@ -25,6 +25,13 @@ const About = () => {
           </motion.div>
           <div className="split-about">
             <motion.div
+              initial={{ x: "50", opacity: 0 }}
+              whileInView={horizontal}
+              className="about-img"
+            >
+              <img src={ProfileImg} alt="Profile" />
+            </motion.div>
+            <motion.div
               initial={{ x: "-100%", opacity: 0 }}
               whileInView={horizontal}
               className="about-content"
@@ -44,13 +51,6 @@ const About = () => {
                 I thrive on challenges and continuously explore emerging
                 technologies to deliver impactful solutions.
               </p>
-            </motion.div>
-            <motion.div
-              initial={{ x: "50", opacity: 0 }}
-              whileInView={horizontal}
-              className="about-img"
-            >
-              <img src={ProfileImg} alt="Profile" />
             </motion.div>
           </div>
         </div>
