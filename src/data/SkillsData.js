@@ -1,23 +1,17 @@
 import { DiJavascript1 } from "react-icons/di";
 import {
+  FaAndroid,
   FaCss3Alt,
   FaFigma,
   FaGithub,
   FaHtml5,
+  FaJava,
+  FaPython,
   FaReact,
   FaSass,
 } from "react-icons/fa";
 import { RiVuejsLine } from "react-icons/ri";
-import {
-  SiAdobephotoshop,
-  SiFirebase,
-  SiFramer,
-  SiNextdotjs,
-  SiRedux,
-  SiStyledcomponents,
-  SiTailwindcss,
-  SiTypescript,
-} from "react-icons/si";
+import { SiFirebase, SiTailwindcss } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
 export const SkillsData = [
@@ -37,6 +31,18 @@ export const SkillsData = [
   {
     name: "React Js",
     icon: <FaReact />,
+  },
+  {
+    name: "Android",
+    icon: <FaAndroid />,
+  },
+  {
+    name: "Java",
+    icon: <FaJava />,
+  },
+  {
+    name: "Python",
+    icon: <FaPython />,
   },
 
   {
