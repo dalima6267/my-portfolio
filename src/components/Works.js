@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { AndroidData, ReactData } from "../data/WorkData";
+import { AllData, AndroidData, ReactData } from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-  const [activeTab, setActiveTab] = useState("android");
+  const [activeTab, setActiveTab] = useState("all");
 
   const fade = {
     opacity: 1,
@@ -15,6 +15,7 @@ const Works = () => {
   };
 
   const tabData = [
+    { id: "all", label: "All", data: AllData },
     { id: "android", label: "Android", data: AndroidData },
     { id: "react", label: "React", data: ReactData },
   ];
