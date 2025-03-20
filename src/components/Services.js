@@ -42,9 +42,9 @@ const Services = () => {
               <CgWebsite className="services-icon" />
               <p className="services-title">Web Development</p>
               <p className="services-desc">
-                I work with certain design tools to create high-fidelity designs
-                and prototypes. I design accessible and usable products which
-                aid business growth.
+                I have web development skills in HTML, CSS, JavaScript, React,
+                and Tailwind CSS, making you proficient in building modern,
+                responsive, and interactive UIs.
               </p>
             </div>
           </motion.div>

@@ -2,17 +2,14 @@ import { DiJavascript1 } from "react-icons/di";
 import {
   FaAndroid,
   FaCss3Alt,
-  FaFigma,
   FaGithub,
   FaHtml5,
   FaJava,
   FaPython,
   FaReact,
-  FaSass,
 } from "react-icons/fa";
-import { RiVuejsLine } from "react-icons/ri";
+
 import { SiFirebase, SiTailwindcss } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
 
 export const SkillsData = [
   {
