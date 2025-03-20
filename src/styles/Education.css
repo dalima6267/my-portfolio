@@ -28,7 +28,7 @@
 .education-icon {
   font-size: 3rem;
   color: var(--nav-blue);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .education-title {
@@ -45,7 +45,7 @@
   line-height: 1.5;
 }
 .education-percent {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 

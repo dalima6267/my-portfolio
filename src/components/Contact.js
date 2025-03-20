@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/Contact.css";
@@ -89,44 +89,6 @@ const Contact = () => {
           </motion.div>
           <div className="contact-box">
             <motion.div
-              className="left-box"
-              initial={{ opacity: 0, y: "-50px" }}
-              whileInView={verticalLeft}
-            >
-              <div className="contact-heading">
-                <p>
-                  If you have any questions, opportunities, or projects you'd
-                  like to discuss, feel free to contact me. I'm available for
-                  freelance work, collaborations, or full-time positions.
-                </p>
-              </div>
-              <div className="contact-hello">
-                <p>Let's Connect!</p>
-                <Link
-                  className="hello-links"
-                  href="https://www.linkedin.com/in/dalima-sahu"
-                  target="_blank"
-                >
-                  LinkedIn
-                </Link>
-                <Link
-                  className="hello-links"
-                  href="https://github.com/dalima6267"
-                  target="_blank"
-                >
-                  Github
-                </Link>
-                <a
-                  className="hello-links"
-                  href="mailto:dalima62657@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  dalima62657@gmail.com
-                </a>
-              </div>
-            </motion.div>
-            <motion.div
               className="right-box"
               initial={{ opacity: 0, y: "50px" }}
               whileInView={verticalLeft}
@@ -195,6 +157,46 @@ const Contact = () => {
                   </button>
                 </div>
               </form>
+            </motion.div>
+            <motion.div
+              className="left-box"
+              initial={{ opacity: 0, y: "-50px" }}
+              whileInView={verticalLeft}
+            >
+              <div className="contact-heading">
+                <p>
+                  If you have any questions, opportunities, or projects you'd
+                  like to discuss, feel free to contact me. I'm available for
+                  freelance work, collaborations, or full-time positions.
+                </p>
+              </div>
+              <div className="contact-hello">
+                <p>Let's Connect!</p>
+                <a
+                  className="hello-links"
+                  href="https://www.linkedin.com/in/dalima-sahu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  className="hello-links"
+                  href="https://github.com/dalima6267"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+                <a
+                  className="hello-links"
+                  href="mailto:dalima62657@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  dalima62657@gmail.com
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>

@@ -9,6 +9,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 
+import { SiKotlin } from "react-icons/si";
 import { SiFirebase, SiTailwindcss } from "react-icons/si";
 
 export const SkillsData = [
@@ -38,10 +39,18 @@ export const SkillsData = [
     icon: <FaJava />,
   },
   {
+    name: "Kotlin",
+    icon: <SiKotlin />,
+  },
+  {
     name: "Python",
     icon: <FaPython />,
   },
 
+  {
+    name: "Python",
+    icon: <FaPython />,
+  },
   {
     name: "Firebase",
     icon: <SiFirebase />,
@@ -52,7 +61,7 @@ export const SkillsData = [
   },
 
   {
-    name: "Git",
+    name: "Github",
     icon: <FaGithub />,
   },
 ];
