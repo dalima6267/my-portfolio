@@ -150,9 +150,7 @@ const Navbar = ({ nav, handleNav }) => {
             </Link>
           </ul>
           <div className="copy">
-            <small className="copyright">
-              © Copyright ©2025 <br /> All rights reserved |
-            </small>
+            <small className="copyright"></small>
           </div>
         </motion.div>
       </motion.nav>
