@@ -5,7 +5,6 @@ import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Dalima Sahu_Resume.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
   const scrollToTop = () => {
@@ -67,6 +66,8 @@ const HeroSection = ({ nav, handleNav }) => {
       },
     },
   };
+  const driveLink =
+    "https://drive.google.com/file/d/10kyVs4Y5LxZZaDmTGCF0fvWnSXeQVTbS/view?usp=sharing";
 
   return (
     <div className="hero-section" name="home" id="home">
@@ -109,7 +110,7 @@ const HeroSection = ({ nav, handleNav }) => {
         initial="hidden"
         whileInView="visible"
       >
-        <a href={CV} download="Dalima CV" className="hero-contact">
+        <a href={driveLink} download="Dalima CV" className="hero-contact">
           Download CV <BiDownload className="cv-icon" />
         </a>
       </motion.span>
