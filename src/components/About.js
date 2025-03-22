@@ -41,9 +41,7 @@ const About = () => {
                 I am a final-year student passionate about programming,
                 specializing in Android development with skills in Java, Kotlin,
                 and Python. Additionally, I have experience with web
-                technologies, including HTML, CSS, JavaScript, and React. My
-                major project involves building a grammar error detection tool
-                using machine learning, which is integrated into an Android app.{" "}
+                technologies, including HTML, CSS, JavaScript, and React.{" "}
               </p>
               <br />
               <p>

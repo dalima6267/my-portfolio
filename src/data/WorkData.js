@@ -52,7 +52,7 @@ export const AndroidData = [
   },
   {
     title: "Calculator",
-    desc: "A app is a simple application that performs basic arithmetic operations like addition, subtraction, multiplication, and division. ",
+    desc: "An app is a simple application that performs basic arithmetic operations like addition, subtraction, multiplication, and division. ",
     tech: ["Java", "Android Studio"],
     gitlink: "https://github.com/dalima6267/Calculator.git",
   },
