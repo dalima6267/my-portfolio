@@ -17,7 +17,7 @@ const HeroSection = ({ nav, handleNav }) => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 300) {
       setVisible(true);
-    } else if (scrolled <= 300) {
+    } else {
       setVisible(false);
     }
   };
@@ -66,14 +66,15 @@ const HeroSection = ({ nav, handleNav }) => {
       },
     },
   };
+
+  // Corrected Google Drive direct download link
   const driveLink =
-    "https://drive.google.com/file/d/10kyVs4Y5LxZZaDmTGCF0fvWnSXeQVTbS/view?usp=sharing";
+    "https://drive.google.com/uc?export=download&id=10kyVs4Y5LxZZaDmTGCF0fvWnSXeQVTbS";
 
   return (
     <div className="hero-section" name="home" id="home">
       <div className="hero-overlay"></div>
       <motion.div
-        // viewport={{ once: true }}
         variants={menuVariants}
         initial="hidden"
         whileInView="visible"
@@ -98,7 +99,6 @@ const HeroSection = ({ nav, handleNav }) => {
         className="hero-content"
       >
         <p className="hero-intro">
-          {/* <span>Peace</span> */}
           <span>Dalima Sahu</span>
         </p>
         <p className="hero-desc">
@@ -110,7 +110,7 @@ const HeroSection = ({ nav, handleNav }) => {
         initial="hidden"
         whileInView="visible"
       >
-        <a href={driveLink} download="Dalima CV" className="hero-contact">
+        <a href={driveLink} className="hero-contact">
           Download CV <BiDownload className="cv-icon" />
         </a>
       </motion.span>

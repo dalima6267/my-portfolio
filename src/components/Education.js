@@ -21,8 +21,8 @@ const Education = () => {
             initial={{ opacity: 0 }}
             className="heading"
           >
-            <p className="heading-sub-text">Educational</p>
-            <p className="heading-text">Experience</p>
+            <p className="heading-sub-text">Academic</p>
+            <p className="heading-text">Qualifications</p>
           </motion.div>
           <motion.div
             className="education-box"
